@@ -8,7 +8,7 @@
   "use strict";
 
   // Nav Menu
-  new cursoreffects.followingDotCursor({color: ["#2E4626"]});
+  // cursor effect: new cursoreffects.followingDotCursor({color: ["#2E4626"]});
   $(document).on('click', '.nav-menu a, .mobile-nav a', function(e) {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var hash = this.hash;
